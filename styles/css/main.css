@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #3b322d;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+header#header .container {
+  height: 150px;
+  background-color: red;
+}
+
+section#barbershop {
+  margin-top: 40px;
+}
+section#barbershop .container {
+  height: 1000px;
+  background-color: red;
+}
+
+section#Briefly {
+  margin-top: 100px;
+  padding-bottom: 120px;
+  position: relative;
+}
+section#Briefly .container {
+  height: 200px;
+  background-color: red;
+}
+section#Briefly::before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: -1;
+  background: #251d1a;
+  width: 100%;
+  height: 600px;
+}
+
+section#About {
+  margin-top: 120px;
+}
+section#About .container {
+  height: 900px;
+  background-color: red;
+}
+
+section#Testimonials {
+  margin-top: 120px;
+}
+section#Testimonials .container {
+  height: 650px;
+  background-color: red;
+}
+
+section#Price {
+  margin-top: 120px;
+}
+section#Price .container {
+  height: 600px;
+  background-color: red;
+}
+
+section#consultation {
+  margin-top: 120px;
+}
+section#consultation .container {
+  height: 625px;
+  background-color: red;
+}
+
+section#Contacts {
+  margin-top: 120px;
+}
+section#Contacts .container {
+  height: 650px;
+  background-color: red;
+}
+
+footer .container {
+  height: 250px;
+  background-color: red;
+}/*# sourceMappingURL=main.css.map */
